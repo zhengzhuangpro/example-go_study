@@ -30,6 +30,7 @@ func sub2() {
 func main() {
 	//协程安全
 	//互斥锁
+	//sync.Mutex
 
 	wg1.Add(2)
 
